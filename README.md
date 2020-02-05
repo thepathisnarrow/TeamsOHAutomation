@@ -2,13 +2,7 @@
 
 ## <strong>Overview</strong>
 This script will create a team, add owner(s), add coaches as members, and add 1-99 channels formatted as "Team 01…Team 99".
-
-## <strong>Install the Teams module</strong>
->1. Open PowerShell as Admin
->2. In the command window, run the following command:
->>Install-Module -Name MicrosoftTeams
-
-![Example of PowerShell command](Images/install_module.png)
+<br><br>
 
 ## <strong>Ensure your policy does not block you from running PowerShell scripts</strong>
 ><ol>
@@ -17,6 +11,16 @@ This script will create a team, add owner(s), add coaches as members, and add 1-
 ><ul><li>Note: When running, you will be asked to accept changes to the execution policy. Please respond with Yes or Yes to All to all prompts.</li></ul></ol>
 
 ![Example of enabling PS](/Images/powershell_enable.png)
+<br><br>
+
+## <strong>Install the Teams module</strong>
+>1. Open PowerShell as Admin
+>2. In the command window, run the following command:
+>>Install-Module -Name MicrosoftTeams
+
+![Example of PowerShell command](Images/install_module.png)
+<br><br>
+
 
 ## <strong>Run the script</strong>
 >1. Open your PowerShell editor of choice (e.g. Visual Code, PowerShell IDE, etc.)
