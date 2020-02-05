@@ -19,8 +19,9 @@ Script:<br>
 ![Example of enabling PS](/Images/powershell_enable.png)
 
 ## Run the script
->1. Open your PowerShell editor of choice (e.g. Visual Code)
->2. Set the variables according to your OH needs. (<em>See the "Variables Examples" below.</em>)
+>1. Open your PowerShell editor of choice (e.g. Visual Code, PowerShell IDE, etc.)
+>2. Open the script: <strong>Teams Automation.ps1</strong>
+>3. Set the variables according to your OH needs. (<em>See the "Variables Examples" below.</em>)
 
 <br>
 
@@ -39,7 +40,7 @@ numOfTeams | The number of channels to create based on the number of teams you e
 admins | Adds the array of email aliases specified as Owners of the Team. Specify them as strings that are comma delimited. | <ul><li>Single</li><ul><li>"alias1@microsoft.com"</li></ul><li>Multiple</li><ul><li>"alias1@microsoft.com", "alias2@microsoft.com", …</li></ul></ul>
 coaches | Adds the array of email aliases specified as Members of the Team. Specify them as strings that are comma delimited. | <ul><li>Single</li><ul><li>"alias1@microsoft.com"</li></ul><li>Multiple</li><ul><li>"alias1@microsoft.com", "alias2@microsoft.com", …</li></ul></ul>
 
->5. Click F5 or the green triangle to run the script
+>4. Click F5 or the green triangle to run the script
 
 # Known Errors and Workarounds
 
