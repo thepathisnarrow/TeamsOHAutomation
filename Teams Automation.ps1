@@ -2,16 +2,16 @@
 # https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3
 
 # Single value parameters
-$teamName = "DavidWinegarDelete5" # Also considered the Display Name
+$teamName = "My Team Name" # Also considered the Display Name
 $teamDescription = "Contoso is a fictional company used by Microsoft as an example company and domain." # Leave blank if you don't care
 $teamVisibility = "Private" # Public or Private
 $teamOwnerOverride = "" # This will default to your Microsoft email if not specified. If you wish to create a team for someone else, specify their Microsoft alias email. Example: togorr@microsoft.com or dawinega@microsoft.com
-$numOfTeams = 41 # Team 01...10...99
+$numOfTeams = 1 # Team 01...10...99
 
 # Array value parameters
 # Example of lists: "email", "email", "email"
-$admins = "trgorr@microsoft.com", "nirali.shah@microsoft.com"
-$coaches = "v-jhend@microsoft.com", "v-ashhub@microsoft.com"
+$admins = "alias1@microsoft.com", "alias2@microsoft.com"
+$coaches = "alias13@microsoft.com", "alias14@microsoft.com"
 
 
 #####################################
