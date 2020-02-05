@@ -1,4 +1,4 @@
-# TeamsOHAutomation
+# Teams Open Hack Automation
 
 ## Overview
 This script will create a team, add owner(s), add coaches as members, and add 1-99 channels formatted as "01…10…99".
